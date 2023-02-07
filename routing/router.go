@@ -6,8 +6,8 @@ import (
 	"net"
 	"strings"
 
+	iputil "github.com/ExploitSuite/utils/ip"
 	"github.com/pkg/errors"
-	iputil "github.com/projectdiscovery/utils/ip"
 )
 
 type RouteType string

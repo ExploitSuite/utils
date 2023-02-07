@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	errorutil "github.com/projectdiscovery/utils/errors"
-	stringsutil "github.com/projectdiscovery/utils/strings"
+	errorutil "github.com/ExploitSuite/utils/errors"
+	stringsutil "github.com/ExploitSuite/utils/strings"
 )
 
 // disables autocorrect related to parsing

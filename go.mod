@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/utils
+module github.com/ExploitSuite/utils
 
 go 1.18
 

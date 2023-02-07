@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	stringsutil "github.com/projectdiscovery/utils/strings"
+	stringsutil "github.com/ExploitSuite/utils/strings"
 	"go.uber.org/multierr"
 )
 
@@ -234,7 +234,7 @@ func AsIPV6CIDR(IPV6 string) string {
 }
 
 // WhatsMyIP attempts to obtain the external ip through public api
-// Copied from https://github.com/projectdiscovery/naabu/blob/master/v2/pkg/scan/externalip.go
+// Copied from https://github.com/ExploitSuite/naabu/blob/master/v2/pkg/scan/externalip.go
 func WhatsMyIP() (string, error) {
 	req, err := http.NewRequestWithContext(context.Background(), http.MethodGet, "https://api.ipify.org?format=text", nil)
 	if err != nil {

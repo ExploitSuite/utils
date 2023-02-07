@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	errorutil "github.com/projectdiscovery/utils/errors"
+	errorutil "github.com/ExploitSuite/utils/errors"
 )
 
 const (

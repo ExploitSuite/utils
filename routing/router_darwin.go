@@ -10,9 +10,9 @@ import (
 	"os/exec"
 	"strings"
 
+	sliceutil "github.com/ExploitSuite/utils/slice"
+	stringsutil "github.com/ExploitSuite/utils/strings"
 	"github.com/pkg/errors"
-	sliceutil "github.com/projectdiscovery/utils/slice"
-	stringsutil "github.com/projectdiscovery/utils/strings"
 	"go.uber.org/multierr"
 )
 

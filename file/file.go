@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
+	stringsutil "github.com/ExploitSuite/utils/strings"
 	"github.com/asaskevich/govalidator"
 	"github.com/pkg/errors"
-	stringsutil "github.com/projectdiscovery/utils/strings"
 	"gopkg.in/yaml.v3"
 )
 
